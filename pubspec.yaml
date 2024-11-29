@@ -1,0 +1,56 @@
+name: breaknbuy_app
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  provider: ^6.1.2
+  carousel_slider: ^5.0.0
+  image_picker: ^1.1.2
+  dynamic_height_grid_view: ^0.0.4
+  calendar_date_picker2: ^1.1.7
+  intl: ^0.19.0
+  font_awesome_flutter: ^10.8.0
+  dropdown_button2: ^2.3.9
+  http: ^1.2.2
+  flutter_rating_bar: ^4.0.1
+  data_table_2: ^2.5.15
+  fast_cached_network_image: ^1.2.9
+  badges: ^3.1.2
+  url_launcher: ^6.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo02.jpeg"
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/images/logo02.jpeg"
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/home/
+
